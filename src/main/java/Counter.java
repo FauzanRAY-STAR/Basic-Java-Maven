@@ -1,14 +1,14 @@
 package src.main.java;
 
-public class Counter {
+public class Counters {
 
 	private int count;
 	
-	public Counter() {
+	public Counters() {
 		this.reset();
 	}
 		
-	public void reset() {
+	public void resets() {
 		count = 0;
 	}
 	
